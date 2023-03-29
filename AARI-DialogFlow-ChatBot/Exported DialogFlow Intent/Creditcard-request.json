@@ -1,0 +1,77 @@
+{
+  "id": "c003c5e0-3797-4ef2-9f39-d4c0d8f7fd36",
+  "name": "Creditcard-request",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I can assist you with this. Please share your customer ID in this format, eg :     ID: 123556456"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How to get a credit card",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f624845b-e5da-48b4-be78-45a4dd939c83",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How to apply for a credit card",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "bd65b3f6-e09b-4201-97a5-6e461d0ea72c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "How can I apply for a credit card?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cac9e945-44ed-495b-bd86-8b7735e23386",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
