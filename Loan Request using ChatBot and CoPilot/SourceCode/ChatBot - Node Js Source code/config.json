@@ -1,0 +1,10 @@
+{
+    "runnerUser":{
+        "username":"sikha_creator",
+        "password" : "password"
+    },
+    "ControlRoomUrl": "https://aa-pet-us-17.my.automationanywhere.digital/",
+    "BotID":11480,
+    "processID" : ""
+
+}
